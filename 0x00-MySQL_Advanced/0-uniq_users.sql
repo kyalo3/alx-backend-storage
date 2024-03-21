@@ -1,4 +1,4 @@
--- SQL Script to Create Table
+-- SQL Script to Create Table users
 -- Author: Your Name
 -- Date: 2023-03-21
 
