@@ -1,4 +1,6 @@
+//create all databases
 //Author: Kyalo3
+//Date: 2024-03-26
 
 db.school.find()
 
