@@ -1,2 +1,2 @@
 //create all databases
-db.school.countDocuments()
+db.school.count()
