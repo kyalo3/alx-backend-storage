@@ -1,7 +1,6 @@
-//create all databases
 //Author: Kyalo3
-//Date: 2024-03-26
 
 use my_db
-db.school.insertOne({ name: "Holberton school" })
+
+db.school.insert({ name: "Holberton school" })
 

@@ -1,7 +1,8 @@
-//create all databases
-//Author: Kyalo3
-//Date: 2024-03-26
+// create all databases
+// Author: Kyalo3
+// Date: 2024-03-26
 
-use my_db
-db.collection.find({ name: "Holberton school" })
+use my_db;
+
+echo 'db.school.find()' | mongo "$1"
 
