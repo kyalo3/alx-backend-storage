@@ -1,6 +1,4 @@
 //Author: Kyalo3
 
-use my_db
-
-db.school.insert({ name: "Holberton school" })
+db.school.find()
 
