@@ -1,2 +1,2 @@
-// Update a new attribute to a document
-db.school.update({ name : "Holberton school" }, { $set: { "address" : "972 Mission street" } } );
+//create all databases
+db.school.delete()
