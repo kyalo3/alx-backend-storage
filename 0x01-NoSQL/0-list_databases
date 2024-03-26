@@ -1,5 +1,6 @@
--- SQL Script to list all databases
--- Author: Kyalo3
--- Date: 2024-03-26
- 
-SHOW DATABASES;
+//list all databases
+//Author: Kyalo3
+//Date: 2024-03-26
+
+show dbs;
+
