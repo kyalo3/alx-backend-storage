@@ -4,4 +4,4 @@
 
 def schools_by__topic(mongo_collection, topics):
     """ filter the schools by topic """
-    return mongo_collection.find({"topics": topic})
+    return mongo_collection.find({"topics": topics})
