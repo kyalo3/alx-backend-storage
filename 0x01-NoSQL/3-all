@@ -1,2 +1,2 @@
 //create all databases
-db.school.totalSize({ "name" : "Holberton school" })
+db.school.find()
