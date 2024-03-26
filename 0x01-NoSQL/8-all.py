@@ -5,7 +5,12 @@ from pymongo import MongoClient
 
 def list_all(mongo_collection):
     """ return an empty list if no doc is present """
-    if
-    else:
-        return 
-list_all = __import__('8-all').list_all
+    all_docs = []
+
+    """ Iterate over all documents in the collection
+    and append them to the list
+    """
+    for document in mongo_collection.find():
+        all_docs.append(document)
+
+    return all_docs
