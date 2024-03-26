@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 
-"""function that gets logs"""
+""" getting logs"""
 from pymongo import MongoClient
 
 
 def log_stats():
-    """ log stats """
-    client = MongoClient('mongodb://localohost:27017')
+    """ log stats"""
+    client = MongoClient('mongodb://localhost:27017')
 
     db = client.logs
     collection = db.nginx
