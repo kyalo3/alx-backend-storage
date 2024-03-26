@@ -6,7 +6,7 @@ from pymongo import MongoClient
 
 def log_stats():
     """ log stats"""
-    client = MongoClient('mongodb://localhost:27017')
+    client = MongoClient('mongodb://localhost:47407')
 
     db = client.logs
     collection = db.nginx
