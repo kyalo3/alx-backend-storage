@@ -1,2 +1,2 @@
-// Update a new attribute to a document
-db.school.update({ name : "Holberton school" } , { $set: { address : "972 Mission street" } } );
+// updating any document in a collection with the name holberton school
+db.school.update({ name : "Holberton school" } , { $set : { address : "972 Mission street" } } );
